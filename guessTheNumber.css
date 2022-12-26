@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Major Mono Display', monospace;
+}
+
+body {
+  background-color: #f2e863;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#userInput {
+  border-radius: 5px;
+  height: 2rem;
+}
+
+#guessButton {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 10rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #e40066;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#guessButton:hover {
+  background-color: #03cea4;
+}
+
+#homeButton {
+  padding: 0.3rem 2rem;
+  position: absolute;
+  bottom: 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#request {
+  max-width: 60%;
+  margin-bottom: 4rem;
+}
+
+#textTarget {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
